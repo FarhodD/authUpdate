@@ -36,7 +36,7 @@ const showUsers = async () => {
             <h2>User List</h2>
             <ul>
                 <li class="flex border justify-between p-2 text-xl" v-for="user in users" :key="user.id">
-                    <span class="font-medium">{{ user.name }}</span>
+                    <span class="font-medium">{{ user.username }}</span>
                     <span>{{ user.email }}</span>
                 </li>
             </ul>
